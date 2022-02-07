@@ -47,6 +47,12 @@ Maiores informações sobre o controle do veículo estão disponíveis [aqui](ht
 - Execute o script fg_quad_view.sh ou fg_quad_plane.sh dependendo da aeronave em Tools/autotest.
 - Execute o sim_vehicle.py passando uma localização como argumento como "-L KSFO" (Aeroporto Internacional de São Francisco)
 
+Verifique que está tudo funcionando digitando os seguintes comandos no console do MAVProxy:
+- mode guided
+- arm throttle
+- takeoff 40
+Os resultados estão na imagem a seguir:
+![image](https://user-images.githubusercontent.com/20712533/152866688-cb6151d5-a920-4a0e-bc87-73179cee1f6a.png)
 
 ## TODO
 
