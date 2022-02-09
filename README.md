@@ -54,9 +54,24 @@ Verifique que está tudo funcionando digitando os seguintes comandos no console 
 Os resultados estão na imagem a seguir:
 ![image](https://user-images.githubusercontent.com/20712533/152866688-cb6151d5-a920-4a0e-bc87-73179cee1f6a.png)
 
+## Como carregar diferentes mapas, cenários e aeronaves?
+
+Para definir a localização do veículo simulado:
+1. É possível passar a localização desejada pelo argumento -Location do script sim_vehicle.py.
+2. As localizações estão contidas em Tools/autotest/locations.txt. É possível adicionar novos locais por esse arquivo.
+
+Para baixar cenários:
+1. Antes de rodar qualquer um dos dois scripts, inicie o Flight Gear pelo terminal com o argumento --launcher (fgfs --launcher). 
+2. Nessa interface, vá em Settings e habilite, na seção Downloads, Download all scenery automatically.
+3. Dessa forma, independente de onde o veículo simulado estiver, o cenário disponível irá ser baixado.
+
+Para diferentes aeronaves:
+1. Vá em addons e baixe o arquivo disponível na seção Aircraft hangars
+2. Acesse as novas aeronaves em Aircraft.
+
 ## TODO
 
-- Como carregar diferentes mapas no Flight Gear?
+- ~~Como carregar diferentes mapas no Flight Gear?~~
 - Como conectar um controle físico (joystick) ao Flight Gear SITL Ardupilot?
 - Como alterar a aparência do drone simulado no Flight Gear?
 - Como adicionar câmera com gimbal ao drone simulado?
